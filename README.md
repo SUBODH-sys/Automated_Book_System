@@ -28,7 +28,7 @@ Demo Link : https://drive.google.com/file/d/10XAlsHR6KCWsWkmTCe_7b53pqcoU2hY-/vi
    
 ## Technical Details
 *Frontend:* 
-Streamlit provides an interactive web interface for human review and editing. 
+Streamlit provides an interactive web interface for human review and editing.<br/>
 *Backend:*
 1. ChromaDB: Persistent vector database for storing documents and embeddings, with upsert to overwrite versions (e.g., human_edited).
 2. SentenceTransformers: Uses the all-MiniLM-L6-v2 model to generate embeddings for semantic search and version storage.
